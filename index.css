@@ -1,0 +1,63 @@
+.navbar-brand {
+    background: #4aaaa5;
+    height: 80px;
+    padding: 31px 60px 15px;
+    font-size: 22px;
+    border-radius: 10px;
+    }
+
+ body {
+ 	background: url(abstract.jpg);
+
+ }
+
+
+h2  {
+	text-align: center;
+}
+
+img {
+	width: 60px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 49px;
+}
+
+ .chris {
+	margin: 3% 7% 0% 0%;
+	width: 250px;
+	border-radius: 10px;
+}
+
+/ p {
+	background: #fff;
+}
+
+div.col {
+	background: #fff;
+}
+
+div.row {
+	background: #fff;
+ 
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+	background: #666;
+	padding: 35px;
+	color: #fff;
+	border-radius: 10px;
+	border-top: solid 8px #4aaaa5
+	
+}
+
+.jumbotron {
+	background: #fff;
+}
