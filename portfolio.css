@@ -1,19 +1,13 @@
-.navbar-brand {
-    background: #4aaaa5;
-    height: 80px;
-    padding: 31px 60px 15px;
-    font-size: 22px;
-    border-radius: 10px;
-    }
 
  body {
- 	background: url(abstract.jpg);
+ background: url(abstract.jpg); 
 
  }
 
 
-h2  {
+ h1 ,h2  {
 	text-align: center;
+	color: #4aaaa5;
 }
 
 img {
@@ -36,20 +30,110 @@ div.col {
 }
 
 div.row {
-	background: #fff;
+	
 
 }
 
-footer {
-    position: fixed;
+ footer {
+   /*  position: absolute;
+    /* bootom: 1px; */
+    
+     position: fixed;   
+      bottom: 0;
+      left: 0;
+      clear: both;
     text-align: center;
     width: 100%;
-    bottom: 0px;
-	background: #666;
+    background: #666;
 	padding: 35px;
 	color: #fff;
 	border-radius: 10px;
 	border-top: solid 8px #4aaaa5
 	
+} 
+
+.records , .movies , .running , .vg {
+	margin: 50px 10px 0px 10px;
 }
 
+.col-md-7 , .col-md-3 {
+	background: #fff;
+	border: solid #ddd 3px;
+	margin-top: 60px;
+	border-radius: 8px;
+}
+
+
+ .portfolio , .connect {
+	text-align: center;
+}
+
+.stack , .linkedin , .github {
+	
+	margin:  5px;
+	
+}
+
+
+
+.txt1 {
+	position: relative;
+	top: 35%;
+	left: 4%;
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 44%;
+	text-align: center;
+
+}
+
+.img1 , .img2{
+	width: 20%
+}
+
+/* Navbar styling */
+
+.navbar-brand {
+    background: #4aaaa5;
+    height: 80px;
+    padding: 31px 60px 15px;
+    font-size: 22px;
+    border-radius: 10px;
+
+    }
+
+.container-fluid {
+    background:#fff;
+}
+
+
+.container-fluid>.navbar-collapse, 
+.container-fluid>.navbar-header, 
+.container>.navbar-collapse, .container>.navbar-header {
+    background: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    }
+
+    .navbar-toggle {
+        background-color : #4aaaa5;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #4aaaa5;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 49px;
+}
+
+li > a:hover {
+    color:#4aaaa5;
+}

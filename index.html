@@ -1,84 +1,128 @@
 <!DOCTYPE html>
-<head>
-<meta charset="UTF-8">
-<title>My First Website</title>
-<!-- bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="index.css" type="text/css">
-</head>
-<html>
-<body>
+<html lang="en-us">
 
-<nav class="navbar navbar-default">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> About </title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  
+	
+
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
       <a class="navbar-brand" href="#">Chris Lantier</a>
     </div>
-    <ul class="nav navbar-nav">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li> <a href="index.html">About</a></li>
+        
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+          </div>
   </div>
 </nav>
   
- <div class="container">
+
+
+
+  <!-- <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        
+        <div class="navbar-brand" >Chris Lantier</div>
+      </div>
+      
+      <ul class="nav navbar-nav navbar-right">
+  
+        <li><a href="index3.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav> -->
   
 
-<div class ='jumbotron'>
-<div class= "row">
- <div class = 'col-md-3'> <img src="Assets/chris1.jpg" class='chris'></div>
-	<div class = "col-md-5">
-		<h2 class='me'> About Me </h2>
-		<p> My name is Chris I am a hard-working goal oritented person with a constant desire to improve myself. I am taking this course because I want to improve my skill set and better myself for the futre. More importantly, however, I wish to challenge myself. So far the gas pedal has been all the way down. This course will be a rigorous test for sure, but after those moments of pure defeat will come overwheming pride and elation. I've always been fascinated by computers though I've been more inclined towards the hardware side. I always found coding intimidating and never knew where to start, though this site is starting to ease my doubt. 
-I enjoy music and Video Games. My favorite game series is hard to pick but I'd probably have to go with the Legend of Zelda series. I love being outside and drinking craft beer, though to really keep up on the workload of this class I will surely have to cut back my consumption. I also really enjoy working out and running, kinda counter-intuitve to drink beer I know... I work out to drink, heh.I am particualrly enjoying IPAs at the moment. I really do enjoy a glass or two to appreciate the taste.   </p>
-	</div>
-	<div class= "col-md-4">
-		<h2> Connect With Me </h2>
-	</div>
-	<div class ='row'>
-		<div class = 'col-md-4'>
-		<a href= "https://linkedin.com/in/chris-lantier"> <img src="Assets/linkedin.png" class = "linkedin" > </a>
-                 
-                 <a href ="https://stackexchange.com/users/12026551/chris-lantier"> <img src="Assets/stack.png" class= "stack"> </a>
-                 <a href= "https://github.com/chrisjlan89"> <img src="Assets/github.png" class="github"> </a>
-             </div>
-           
-	</div>
-
-</div>
-</div>
-</div> 
-
-<!-- <div class ="container">
-	<div class ='row'>
-	<div class="col-md-9">
-	About Me
-	</div>
-
-	<div class="col-md-3">
-	Connect With Me	
-	</div>
-</div>
+<div class ="container">
 
 <div class ="row">
-<div class ='col-md-9'>
-<p> My name is Chris I am a hard-working goal oritented person with a constant desire to improve myself. I am taking this course because I want to improve my skill set and better myself for the futre. More importantly, however, I wish to challenge myself. So far the gas pedal has been all the way down. This course will be a rigorous test for sure, but after those moments of pure defeat will come overwheming pride and elation. I've always been fascinated by computers though I've been more inclined towards the hardware side. I always found coding intimidating and never knew where to start, though this site is starting to ease my doubt. 
-I enjoy music and Video Games. My favorite game series is hard to pick but I'd probably have to go with the Legend of Zelda series. I love being outside and drinking craft beer, though to really keep up on the worload of this class I will surely have to cut back my consumption. I also really enjoy working out and running, kinda counter-intuitve to drink beer I know... I work out to drink, heh.I am particualrly enjoying IPAs at the moment. I really do enjoy a glass or two to appreciate the taste. </p>
-	</div>
 
-	<div class='col-md-3'>
-   <a href= "https://linkedin.com/in/chris-lantier"> <img src="Assets/linkedin.png" class = "linkedin" > </a>
-               
-                 <a href ="https://stackexchange.com/users/12026551/chris-lantier"> <img src="Assets/stack.png" class= "stack"> </a>
-                 <a href= "https://github.com/chrisjlan89"> <img src="Assets/github.png" class="github"> </a>
-	</div>
+<div class ="col-md-7">
+  <h1> About Me </h1>
+
+    <img src = "Assets/Chris1.jpg" width="50px"><p> Proident eu incididunt ad irure do exercitation esse in dolor exercitation ex ea sit reprehenderit adipisicing eiusmod labore sit amet eiusmod non culpa dolore quis est dolore amet in incididunt esse reprehenderit exercitation in esse ut tempor laborum proident incididunt sunt excepteur laboris fugiat dolor voluptate anim ut ea deserunt tempor magna aliqua sint et non cupidatat nulla culpa in in in in eu fugiat duis mollit excepteur ut nulla ut ex adipisicing laborum veniam ullamco aliqua reprehenderit aliquip est ut et incididunt in qui dolor do esse culpa ea incididunt cupidatat excepteur mollit dolor consectetur enim est dolor fugiat ut velit velit reprehenderit ea in aute exercitation ut deserunt dolore laboris nulla ex duis adipisicing fugiat exercitation culpa nisi sint in nisi excepteur id in nostrud velit anim ut in eu id est quis sint dolor eu esse irure deserunt quis mollit cillum et laboris commodo nisi consequat magna irure labore cupidatat et dolore mollit in aliquip ad ut pariatur deserunt sunt ut voluptate exercitation minim non in nisi incididunt cillum do occaecat labore sit. </p>
+  </div>
+  <div class = "col-md-2">
+  </div>
+  <div class = "col-md-3">
+    <div class = "connect">
+    <h2> Connect With Me </h2>
+
+
+    <a href= "https://linkedin.com/in/chris-lantier"> <img src="Assets/linkedin.png" class = "linkedin" width="60px" > </a>
+    <a href ="https://stackexchange.com/users/12026551/chris-lantier"> <img src="Assets/stack.png" class= "stack" width="60px"> </a>
+    <a href= "https://github.com/chrisjlan89"> <img src="Assets/github.png" class="github" width="60px"> </a>
+             </div>
+             </div>
 </div>
-</div>	
 
-</div> -->
+<!-- <div class ="row">
+
+  
+  
+  <div class ="col-md-8">
+
+    <img src = "Assets/Chris1.jpg" width="50px">
+    <p> Proident eu incididunt ad irure do exercitation esse in dolor exercitation ex ea sit reprehenderit adipisicing eiusmod labore sit amet eiusmod non culpa dolore quis est dolore amet in incididunt esse reprehenderit exercitation in esse ut tempor laborum proident incididunt sunt excepteur laboris fugiat dolor voluptate anim ut ea deserunt tempor magna aliqua sint et non cupidatat nulla culpa in in in in eu fugiat duis mollit excepteur ut nulla ut ex adipisicing laborum veniam ullamco aliqua reprehenderit aliquip est ut et incididunt in qui dolor do esse culpa ea incididunt cupidatat excepteur mollit dolor consectetur enim est dolor fugiat ut velit velit reprehenderit ea in aute exercitation ut deserunt dolore laboris nulla ex duis adipisicing fugiat exercitation culpa nisi sint in nisi excepteur id in nostrud velit anim ut in eu id est quis sint dolor eu esse irure deserunt quis mollit cillum et laboris commodo nisi consequat magna irure labore cupidatat et dolore mollit in aliquip ad ut pariatur deserunt sunt ut voluptate exercitation minim non in nisi incididunt cillum do occaecat labore sit. </p>
+  </div>
+</div>
+</div>
+
+<div class = "col-md-4">
+    <h1> Connect With Me </h1>
+<div class = "row">
+
+  <div class = "col-md-4">
+    <a href= "https://linkedin.com/in/chris-lantier"> <img src="Assets/linkedin.png" class = "linkedin" width="60px" > </a>
+                 
+                 <a href ="https://stackexchange.com/users/12026551/chris-lantier"> <img src="Assets/stack.png" class= "stack" width="60px"> </a>
+                 <a href= "https://github.com/chrisjlan89"> <img src="Assets/github.png" class="github" width="60px"> </a>
+             </div>
+
+  </div>
+
+  
+
+    
+  </div>
+
+     
+  </div> -->
+  
+</div>
+
+<div class = "row>">
 <footer>
-	Copyright Chris Lantier 2017
+  Copyright Chris Lantier 2017
+</div>
 </footer>
-</body>	
-</html>
+
+</body>
+

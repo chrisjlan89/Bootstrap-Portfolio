@@ -1,61 +1,106 @@
 <!DOCTYPE html>
 <head>
-<meta charset="UTF-8">
-<title>My First Website</title>
-<!-- bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="portfolio.css" type="text/css"> 
+  <meta charset="UTF-8">
+  <title>My First Website</title>
+  <!-- bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="portfolio.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 </head>
 <html>
 <body>
 
-<nav class="navbar navbar-default">
+
+
+
+
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
       <a class="navbar-brand" href="#">Chris Lantier</a>
     </div>
-    <ul class="nav navbar-nav">
-      <li><a href="index3.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">About</a></li>
+        
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+          </div>
   </div>
 </nav>
+  <!-- <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Chris Lantier</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index3.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav> -->
   
- <div class="container">
-  
+  <div class="container"> 
 
+
+
+    <div class ='row'>
+
+      <div class='col-md-7'>
+        <div class = 'portfolio'>
+        <h1> Portfolio </h1>
+       <!-- <div class = 'img1'> --> 
+        <img src= 'Assets/records.jpg' class='records'>
+        <!-- <div class = "txt1">
+          <h3> Records </h3>
+        </div>
+              </div> -->
+    
+        <!-- <div class = "img2"> -->
+        <img src ='Assets/Movies.jpg' class ='movies'>
+      <!-- </div> -->
+
+
+
+
+        <img src= 'Assets/running.jpg' class='running' >
+        <img src ='Assets/vg.jpg' class ='vg'>
+      </div>
+      </div>
+      <div class ='col-md-2'>
+      </div>
+
+      <div class= "col-md-3" >
+        <div class = "connect">
+          <h2> Connect With Me </h2>
+          <a href= "https://linkedin.com/in/chris-lantier"> <img src="Assets/linkedin.png" class = "linkedin" > </a>
+          <a href ="https://stackexchange.com/users/12026551/chris-lantier"> <img src="Assets/stack.png" class= "stack"> </a>
+          <a href= "https://github.com/chrisjlan89"> <img src="Assets/github.png" class="github"> </a>
+        </div>
+      </div>
+      
+
+    </div>
+
+   
+
+  </div>
+  <div class = 'container'>
   <div class ='row'>
-    <div class='col-md-4'>
-      <img src ='Assets/Movies.jpg' class ='movies'>
-    </div>
-
-    <div class= 'col-md-4'>
-      <img src= 'Assets/running.jpg' class='running'>
-    </div>
-
-    <div class= 'col-md-3'>
-      <h2> Connect With Me </h2>
-      <a href= "https://linkedin.com/in/chris-lantier"> <img src="Assets/linkedin.png" class = "linkedin" > </a>
-                 
-                 <a href ="https://stackexchange.com/users/12026551/chris-lantier"> <img src="Assets/stack.png" class= "stack"> </a>
-                 <a href= "https://github.com/chrisjlan89"> <img src="Assets/github.png" class="github"> </a>
-             </div>
-    </div>
-     <div class ='row'>
-    <div class='col-md-4'>
-      <img src ='Assets/vg.jpg' class ='movies'>
-    </div>
-
-    <div class= 'col-md-4'>
-      <img src= 'Assets/records.jpg' class='running'>
-    </div>
-
+    <div class = 'col-md-12'>
+      <footer>
+        Copyright Chris Lantier 2017
+      </footer>
+    </div> 
   </div>
-
-  </div>
-<footer>
-  Copyright Chris Lantier 2017
-</footer>
-</body>
-</html>
+</div>
+  </body>
+  </html>

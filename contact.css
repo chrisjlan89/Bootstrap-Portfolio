@@ -5,62 +5,44 @@
 
  }
 
+ img {
+	width: 60px;
+}
 
-h1 , h2 {
-	text-align: center;
-	color: #4aaaa5;
+.connect , h1 {
+    text-align: center;
+    color: #4aaaa5;
+
 }
 
 
-.navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 49px;
-}
-
- .chris {
-	margin: 3% 7% 0% 0%;
-	width: 250px;
-	border-radius: 10px;
-}
-
-
-div.col {
-	background: #fff;
-}
-
-.connect {
-	text-align: center;
-}
-
- .stack , .linkedin , .github {
-	
-	margin: 5px 10px;
-}
 
 .col-md-7 , .col-md-3 {
+	margin-top: 80px;
 	border:solid #ddd 3px;
 	background: #fff;
 	border-radius: 5px;
-	margin-top: 80px;
+}
 
+.stack , .linkedin , .github {
 
-} 
+    display: inline-block;
+    text-align: center;
+}
 
-
-
- footer {
-   /*  position: absolute; */
+   footer {
+   /*  position: absolute;  */
     text-align: center;
     width: 100%;
-   /*  bottom: 1px; */
-	background: #666;
-	padding: 35px;
-	color: #fff;
-	border-radius: 10px;
-	border-top: solid 8px #4aaaa5
+   /*  bottom: 0px */; 
+    background: #666;
+    padding: 35px;
+    color: #fff;
+    border-radius: 10px;
+    border-top: solid 8px #4aaaa5
 }
- /* Navbar styling */
+
+/* Navbar styling */
 
 .navbar-brand {
     background: #4aaaa5;
@@ -72,14 +54,14 @@ div.col {
     }
 
 .container-fluid {
-	background:#fff;
+    background:#fff;
 }
 
 
 .container-fluid>.navbar-collapse, 
 .container-fluid>.navbar-header, 
 .container>.navbar-collapse, .container>.navbar-header {
-	background: #fff;
+    background: #fff;
 }
 
 .navbar-inverse .navbar-brand {
@@ -87,7 +69,7 @@ div.col {
     }
 
     .navbar-toggle {
-    	background-color : #4aaaa5;
+        background-color : #4aaaa5;
 }
 
 .navbar-inverse .navbar-nav>.active>a, 
@@ -97,6 +79,12 @@ div.col {
     background-color: #4aaaa5;
 }
 
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 49px;
+}
+
 li > a:hover {
-	color:#4aaaa5;
+    color:#4aaaa5;
 }
