@@ -14,14 +14,15 @@
     color: #4aaaa5;
 
 }
-
-
-
-.col-md-7 , .col-md-3 {
-	margin-top: 80px;
+.connect, .contact{
+    margin: 20px 0px;
 	border:solid #ddd 3px;
-	background: #fff;
 	border-radius: 5px;
+    padding:10px;
+    background-color:white;
+}
+.page-height{
+    height:900px;
 }
 
 .stack , .linkedin , .github {
@@ -88,3 +89,5 @@
 li > a:hover {
     color:#4aaaa5;
 }
+
+

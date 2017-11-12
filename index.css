@@ -38,14 +38,16 @@ div.col {
 	margin: 5px 10px;
 }
 
-.col-md-7 , .col-md-3 {
+.about, .connect{
+	margin: 20px 0px;
 	border:solid #ddd 3px;
-	background: #fff;
 	border-radius: 5px;
-	margin-top: 80px;
-
-
-} 
+    padding:10px;
+    background-color:white;
+}
+.page-height{
+    height:950px;
+}
 
 
 

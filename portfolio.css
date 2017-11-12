@@ -5,6 +5,7 @@
  }
 
 
+
  h1 ,h2  {
 	text-align: center;
 	color: #4aaaa5;
@@ -21,27 +22,15 @@ img {
 }
 
 
-p {
-	background: #fff;
-}
 
-div.col {
-	background: #fff;
-}
 
-div.row {
+
 	
 
-}
+
 
  footer {
-   /*  position: absolute;
-    /* bootom: 1px; */
-    
-     position: fixed;   
-      bottom: 0;
-      left: 0;
-      clear: both;
+   
     text-align: center;
     width: 100%;
     background: #666;
@@ -56,17 +45,19 @@ div.row {
 	margin: 50px 10px 0px 10px;
 }
 
-.col-md-7 , .col-md-3 {
-	background: #fff;
-	border: solid #ddd 3px;
-	margin-top: 60px;
-	border-radius: 8px;
+.portfolio, .connect{
+	margin: 20px 0px;
+	border:solid #ddd 3px;
+	border-radius: 5px;
+    padding:10px;
+    background-color:white;
+    text-align: center;
 }
-
-
- .portfolio , .connect {
-	text-align: center;
+.page-height{
+    height:100%
 }
+	
+
 
 .stack , .linkedin , .github {
 	
